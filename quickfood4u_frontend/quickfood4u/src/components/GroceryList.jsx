@@ -9,6 +9,7 @@ const GroceryList = ({ isOpen, closeGroceryModal}) => {
   const [newItem, setNewItem] = useState('');
   const [token, setToken] = useState('');
   const [username, setUsername] = useState('');
+  // const [error, setError] = useState('');
 
   useEffect(() => {
     // Fetch JWT token from localStorage when component mounts
@@ -54,6 +55,11 @@ const fetchGroceryItems = async () => {
     }
   };
   const addItem = async () => {
+    // if (!newItem.trim()) {
+    //   setError('Please enter a valid item');
+    //   return;
+    // }
+
     try {
       // Make a POST request to add a new grocery item
       await axios.post(`http://localhost:8080/api/grocery/addItem`, { ingredient: newItem , username: username}, {
@@ -65,6 +71,7 @@ const fetchGroceryItems = async () => {
       fetchGroceryItems();
       // Clear the input field
       setNewItem('');
+      //setError(''); // Clear error message
     } catch (error) {
       console.error('Error adding grocery item:', error);
     }
@@ -95,7 +102,7 @@ const fetchGroceryItems = async () => {
               <span>&times;</span>
             </button>
           </div>
-          <div className="modal-body">
+          <div className="modal-body" style={{ marginTop: '20px'}}>
             <ul className="list-group">
               {groceryItems.map((item, index) => (
                 <li key={index} className="list-group-item d-flex justify-content-between align-items-center">
@@ -128,11 +135,12 @@ const customStyles = {
         top: '50%',
         left: '50%',
         transform: 'translate(-50%, -50%)',
-        maxWidth: '70%', // Adjust this value to change the width
-        maxHeight: '70%', // Adjust this value to change the height
+        maxWidth: '60%', // Adjust this value to change the width
+        maxHeight: '80%', // Adjust this value to change the height
         overflow: 'auto',
         borderRadius: '10px',
         padding: '20px',
+        boxShadow: '0px 2px 10px rgba(0, 0, 0, 0.1)', // Add box shadow for depth
       },
       overlay: {
         backgroundColor: 'rgba(0, 0, 0, 0.5)',
