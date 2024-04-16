@@ -7,6 +7,7 @@ import Recipe from "./Recipe";
 import Veggie from "../components/Veggie";
 import { AnimatePresence } from "framer-motion";
 import Popular from "../components/Popular";
+import GroceryList from "../components/GroceryList";
 //import Login from "../Authentication/Login";
 //import Logout from "../Authentication/Logout";
 
@@ -22,6 +23,7 @@ function Pages() {
         <Route  path="/recipe/:name" element={<Recipe/>}/>
         <Route path="/veggie" element={<Veggie/>}/>
         <Route path="/popular" element={<Popular/>}/>
+        <Route path="/grocerylist" element={<GroceryList/>}/>
         {/* <Route path="/login"  element={<Login/>}/>
         <Route path="/logout" element={<Logout/>} /> */}
 

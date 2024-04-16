@@ -1,2 +1,7 @@
-package com.finalproject.quickfood4u.config;public class JwtConstant {
+package com.finalproject.quickfood4u.config;
+
+public class JwtConstant {
+    public static final String SECRET_KEY = "wpembytrwcvnryxksdbqwjebruyGHyudqgwveytrtrCSnwifoesarjbwe";
+    public static final String JWT_HEADER = "Authorization";
 }
+

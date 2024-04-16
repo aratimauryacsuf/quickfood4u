@@ -34,7 +34,7 @@ function Veggie() {
    
 
   return (
-    <div className="container-fluid mt-4 p-5">
+    <div className="container-fluid mt-4">
     <Wrapper>
       <h3>Our Vegetarian Picks</h3>
       <Splide options={{
