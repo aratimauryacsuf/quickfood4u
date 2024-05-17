@@ -7,6 +7,13 @@
     <list default="true" id="7537129c-f72c-4f2e-aab5-5a97fa7dc2c3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../quickfood4u_frontend/quickfood4u/src/Authentication/AuthModal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../quickfood4u_frontend/quickfood4u/src/Authentication/AuthModal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../quickfood4u_frontend/quickfood4u/src/Authentication/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../quickfood4u_frontend/quickfood4u/src/Authentication/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../quickfood4u_frontend/quickfood4u/src/Authentication/Logout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../quickfood4u_frontend/quickfood4u/src/Authentication/Logout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../quickfood4u_frontend/quickfood4u/src/components/GroceryList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../quickfood4u_frontend/quickfood4u/src/components/GroceryList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../quickfood4u_frontend/quickfood4u/src/components/Popular.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../quickfood4u_frontend/quickfood4u/src/components/Popular.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../quickfood4u_frontend/quickfood4u/src/components/Veggie.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../quickfood4u_frontend/quickfood4u/src/components/Veggie.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../quickfood4u_frontend/quickfood4u/src/layout/NavbarAndFooter/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../quickfood4u_frontend/quickfood4u/src/layout/NavbarAndFooter/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../quickfood4u_frontend/quickfood4u/src/pages/Pages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../quickfood4u_frontend/quickfood4u/src/pages/Pages.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
